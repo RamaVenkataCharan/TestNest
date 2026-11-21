@@ -1,0 +1,41 @@
+# =========================
+# FastAPI Backend
+# =========================
+fastapi==0.139.2
+uvicorn[standard]==0.51.0
+SQLAlchemy==2.0.51
+psycopg2-binary==2.9.12
+alembic==1.18.5
+
+# =========================
+# Configuration / Validation
+# =========================
+pydantic==2.13.4
+pydantic-settings==2.14.2
+python-dotenv==1.2.2
+email-validator==2.3.0
+python-multipart==0.0.32
+
+# =========================
+# Authentication / Security
+# =========================
+python-jose==3.5.0
+passlib==1.7.4
+bcrypt==4.0.1
+
+# =========================
+# AI / Computer Vision
+# =========================
+mediapipe==0.10.14
+opencv-python==5.0.0.93
+opencv-contrib-python==5.0.0.93
+ultralytics==8.4.105
+numpy==2.5.1
+matplotlib==3.11.1
+pillow==12.3.0
+sounddevice==0.5.5
+
+# =========================
+# PDF Reports
+# =========================
+reportlab==5.0.0
