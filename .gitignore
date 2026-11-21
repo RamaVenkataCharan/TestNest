@@ -1,0 +1,57 @@
+# ==============================
+# BACKEND - PYTHON
+# ==============================
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+backend/venv/
+backend/venv312/
+backend/.venv/
+
+# Backend environment secrets
+backend/.env
+
+# Python cache/testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# ==============================
+# FRONTEND
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Frontend environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# OPERATING SYSTEM
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# LOG FILES
+# ==============================
+*.log
+
+# ==============================
+# LOCAL DATABASES
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
